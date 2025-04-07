@@ -31,13 +31,11 @@ REQUIRED = [
     "IPython",
 ]
 
-
-
 EXTRAS = {
     "cuda": [
-            'nvidia-cudnn-cu12==8.9.7.29',
-            'jaxlib@https://storage.googleapis.com/jax-releases/cuda12/jaxlib-0.4.23+cuda12.cudnn89-cp310-cp310-manylinux2014_x86_64.whl',
-        ],
+        'nvidia-cudnn-cu12==8.9.7.29',
+        'jax[cuda12]==0.4.23',
+            ],
     "dev": [
         "autoflake",
         "black",
