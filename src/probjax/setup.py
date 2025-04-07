@@ -33,7 +33,6 @@ REQUIRED = [
 
 EXTRAS = {
     "cuda": [
-        'nvidia-cudnn-cu12',
         'jax[cuda12]',
             ],
     "dev": [
