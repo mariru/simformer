@@ -33,8 +33,8 @@ REQUIRED = [
 
 EXTRAS = {
     "cuda": [
-        'nvidia-cudnn-cu12==8.9.7.29',
-        'jax[cuda12]==0.4.23',
+        'nvidia-cudnn-cu12',
+        'jax[cuda12]',
             ],
     "dev": [
         "autoflake",
